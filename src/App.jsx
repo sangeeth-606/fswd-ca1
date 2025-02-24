@@ -6,8 +6,11 @@ let datas=[{
   name:"Emily Watson",
   rev:"this service is amazing"
 },{
-name:"Desxter",
-rev:"this service is good"}
+name:"Dexter",
+rev:"this service is good"},
+{name:"prithvi",
+  rev:"good"
+}
 ]
 
 function App() {
