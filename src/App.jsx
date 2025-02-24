@@ -15,9 +15,10 @@ function App() {
 
   return (
     <>
-    {datas.map((data)=>{
-      <ClientTestimonials name={data.name} rev={data.rev} key={data.id} />
+    {datas.map(function(data){
+      return <ClientTestimonials name={data.name} rev={data.rev} key={data.id}/>
     })}
+    
     </>
   )
 }

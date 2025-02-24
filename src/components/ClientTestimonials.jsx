@@ -3,7 +3,7 @@
 
 function ClientTestimonials({name ,rev}) {
   return (
-    <div>
+    <div style={{}} >
         <h1>{name}</h1>
         <h2>{rev}</h2>
     </div>
